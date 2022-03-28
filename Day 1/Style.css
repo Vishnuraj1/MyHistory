@@ -1,0 +1,40 @@
+button{
+    background:green;
+}
+#para1{
+    color: rgb(255, 217, 0);
+}
+#para2{
+    color: rgb(23, 130, 218);
+}
+.content{
+    color: magenta;
+    background: rgb(221, 211, 207);
+}
+.outer-box{
+    
+    background: #006380;
+    height: 600px;
+    width: 600px;
+    margin-left: 450px;
+    padding-left: 80px;
+    border: 5px solid;
+    border-color: #22b277;
+}
+.white{
+    color: #fff;
+}
+.innerdiv{
+    background: black;
+    margin-top: 200px;
+    margin-bottom: 200px ;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin:20px;
+    width: 400px;
+    height: 400px;
+}
+.box{
+    margin: 100px;
+    padding-left: 50px;
+}

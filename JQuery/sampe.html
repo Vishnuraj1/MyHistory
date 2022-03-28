@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+ </head>
+ <body>
+
+<button id="btns">Click here</button>
+<div style="width: 400px; height: 400px; background: cyan; " id="box">
+
+</div>
+<input type="text" id="inp">
+<br>
+<label style="display: none;" for="" id="error">please enter minimum 4 character</label>
+<input type="text" id="">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $("#btns").click(function(){
+        //alert("Button clicked") 
+        $("#box").toggle(1000)
+      })
+         
+    })
+
+    
+    $("#btns").mouseenter(function(){
+        $(this).css({"background":"red"})
+      
+    })
+    $("#btns").mouseleave(function(){
+      $(this).css({"background":"white"})
+     
+      $("#inp").blur(function(){
+       var text=$(this).val()
+       
+       if(text.length<4){
+      // alert("enter minimum 4 character")
+       $("#error").show()
+       }else{
+         $("#error").hide()
+       }
+      })
+      
+
+
+    })
+    
+    
+</script>
+</body>
+ </html> 
+ 

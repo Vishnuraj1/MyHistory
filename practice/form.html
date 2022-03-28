@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="form.css">
+<script src="form.js"></script>
+<body>
+   
+    <form action="" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <div class="main">
+            <h1 id="head"><u>For Test Purpose</u></h1>
+           <input name="fname"  type="text" class="box" placeholder="Enter your Name">
+           <input  type="text" class="box" placeholder="Enter your House Name ">
+           <input  type="text" class="box" placeholder="Enter Your DOB">
+           <input  type="text" class="box" placeholder="Enter Your Ambition">
+          
+           <div >
+               <br>
+             <label  id="labeltext" for="">Favourite Transportation Method</label>
+             <br>
+             <select name="" id="transport">
+              <option value="">Choose</option>
+              <option value="">Bike</option>
+              <option value="">Car</option>
+              <option value="">Bus</option>
+             </select>
+           </div>
+           <div>
+               <input type="text" class="box" placeholder="Enter Your Mail Id">
+               <input type="text" class="box" placeholder="Enter Your Password">
+               <input type="text" class="box" placeholder="Confirm Your Password">
+           </div>
+           <input class="subBtn" type="submit" value="Submit Form" formaction="confirm.html" >
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   
+</body>
+</html>
+ <!-- Email address input -->

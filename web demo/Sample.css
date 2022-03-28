@@ -1,0 +1,15 @@
+
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+.text{
+    padding-left: 200px;
+    font-style: italic;
+    color: black;
+    font-size: 50px;
+
+}
+    

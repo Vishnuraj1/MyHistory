@@ -1,0 +1,43 @@
+.main{
+    width: 365px;
+    height: 600px;
+    background-color: rgb(85, 197, 182);
+    margin-left: 500px;
+    border-radius: 8px;
+}.box{
+    width: 300px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+  
+}
+#head{
+    margin-left: 20px;
+}
+#labeltext{
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+#transport{
+    width: 138px;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 20px;
+    padding-top: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+}
+.subBtn{
+    margin-top: 43px;
+    margin-left: 25px;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #4a7171;
+    color: white;
+}

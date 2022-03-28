@@ -1,0 +1,29 @@
+.header{
+    background: crimson;
+    width: 100%;
+    height: 200px;
+}
+.left-section{
+    background: hotpink;
+    width: 20%;
+    height: 300px;
+    float: left;
+}
+.right-section{
+    background: gold;
+    width: 80%;
+    height: 300px;
+    float: left;
+}
+.footer{
+    background: cyan;
+    width: 100%;
+    height: 150px;
+}
+.content{
+    height: 300px;
+    
+}
+body{
+    margin: 0;
+}
